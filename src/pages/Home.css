@@ -1,0 +1,14 @@
+.page{
+    display: flex;
+    flex-direction: row;
+
+}
+.page>aside{
+    width: 15%;
+}
+.page>div{
+    width: 85%;
+}
+.page>div>nav{
+    width: 100%;
+}

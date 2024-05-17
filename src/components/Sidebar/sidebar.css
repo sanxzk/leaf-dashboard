@@ -1,0 +1,61 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+  padding: 2rem 0rem;
+}
+.sidebar{
+    position: fixed;
+}
+.sidebar > header > :nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  padding: 2rem 0rem;
+  border-radius: 15px;
+  cursor: pointer;
+  
+}
+.sidebar > header > :nth-child(1) > span {
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  font-size: 32px;
+  line-height: 43.65px;
+}
+
+
+.sidebar > header > :nth-child(2) {
+  border: 1px solid #000000;
+  margin: 0rem 2rem;
+  margin-top: 2rem;
+  padding: 1rem 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.sidebar > header > :nth-child(2):hover,.sidebar>header>:nth-child(1):hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sidebar > header > :nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+}
+.sidebar>header>:nth-child(2)>span{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25.5px;
+    font-family:"Nunito", sans-serif;
+}
+.sidebar > :nth-child(2) > span {
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  line-height: 22.5px;
+  padding: 0rem 0.5rem;
+}
